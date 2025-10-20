@@ -1,5 +1,11 @@
 # A project that takes raw audio signals of males and females and predicting the genders of these audio files. This is an end to end DE/ML project that will take these signals from raw to usable features that ML models will train on. 
 
+Unfortunately, this does not reflect true biology as the intersex exist, but are not represented here as predictions/output variables (and odds are, not represented in the input files as well). To learn more about the intersex:
+https://www.ohchr.org/en/sexual-orientation-and-gender-identity/intersex-people
+https://www.hrc.org/resources/understanding-the-intersex-community
+https://interactadvocates.org/intersex-resource-topics/
+https://www.ncbi.nlm.nih.gov/books/NBK279085/figure/congn-adren-hp-emerg.F2/
+
 ## Final Pipeline Architecture:
 ![alt text](./figures%20&%20images/assets/finished%20architecture.jpg)
 
@@ -117,6 +123,7 @@ Problem:
 * Raw audio files are large, unwieldy, and require specialized tools to process. Extracting meaningful features from these signals is computationally intensive, and traditional methods often fail to scale, creating a massive data bottleneck that prevents machine learning projects from ever reaching production.
 * Relying solely on expensive, proprietary cloud services can be suffocating cost wise for every stage of the pipeline—from data ingestion to feature transformation. This traps organizations into a cycle of high operational expenses, making valuable analytics and machine learning applications inaccessible to all but the largest enterprises.
 * Without a standardized, automated, and repeatable process, every machine learning experiment becomes a manual, one-off project. This leads to inconsistent results, difficulty in reproducing models, and a significant amount of time and resources wasted on manual data wrangling rather than on model innovation.
+* 
 
 Solution:
 * This project was a direct response to these challenges. It is a testament to the power of a hybrid architecture, combining the best of managed cloud services yet still being cost conservative, open-source tools to build a comprehensive MLOps pipeline that is both scalable and cost-effective.
